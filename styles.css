@@ -1,0 +1,309 @@
+/* Tu código CSS corregido */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/set-colored-balloons-flying-ground-cappadocia-turkey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90%; /* Asegura que el body abarque toda la altura de la ventana gráfica */
+}
+
+/* Estilo para el logo */
+.logo {
+    width: 15rem;
+    height: 10rem;
+   
+}
+
+/* Estilo para la barra de navegación superior */
+.navBar0 {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+/* Estilo para la barra de navegación principal */
+.navBar {
+    background-color: #5778aa;
+    
+   
+   
+}
+
+/* Estilo para los enlaces de navegación */
+.navLinks {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+    /* height: 100%; Asegura que la lista ocupe toda la altura del contenedor */
+    margin: 0; /* Elimina cualquier margen para evitar desplazamientos */
+    padding: 0; /* Elimina cualquier relleno para evitar desplazamientos */
+}
+
+.navLinks li {
+    margin-right: 20px;
+    
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+     height: 100%; /*Asegura que el elemento ocupe toda la altura del contenedor */
+}
+
+.navLinks li a {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navLinks li a:hover {
+    color: rgb(71, 200, 255);
+}
+
+/* Estilos para el formulario de búsqueda */
+.searchForm {
+    padding: 0.5rem;
+    text-align: center;
+    
+}
+
+.searchForm form {
+    display: inline-block;
+    text-align: center;
+    padding: 0.2rem;
+    border: 2px solid #f2f2f3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    background-color: #113886;
+    
+}
+
+
+
+.searchForm input,
+.searchForm button,
+.searchForm select {
+    background-color: #f2f2f3;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(14, 13, 13);
+    border: none;
+    cursor: pointer;
+    width: 10rem;
+    
+}
+
+
+
+/* Estilos para el footer */
+footer {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100% ;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    margin-left: 10px;
+    max-height: 50px;
+}
+
+.socialLinks {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.socialLinks li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+}
+
+.socialLinks img {
+    width: 50px;
+}
+
+/* Estilos para los botones */
+.buttons {
+    display: flex;
+    flex-direction: column; /* Alinea los botones uno debajo del otro */
+    align-items: flex-end; /* Alinea los botones al margen derecho */
+    /*margin-right: 20px !important;  Aseguramos la prioridad del estilo */
+    margin-top: 3px;
+}
+
+.button, .searchButton {
+    background-color:  #5275bd;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px; /* Espacio entre los botones */
+    width: 200px; /* Ancho fijo para los botones */
+    text-align: center; /* Centra el texto dentro del botón */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.button:hover, .searchButton:hover {
+    background-color: #5275bd;
+}
+
+/* CSS para el carrusel */
+.carousel-item img {
+    width: 87% !important; /* El ancho ocupa el 80% de la pantalla */
+    height: 70vh !important; /* La altura ocupa el 50% de la altura de la ventana */
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente */
+    border-radius: 7px; /* Agrega bordes redondeados */
+    margin: 0 auto; 
+    padding: 5px; /* Agrega un espacio interior para el contenido */
+    transition: transform 2s ease;/* Ajustamos la transición para que sea suave */
+}
+
+/* Efecto de escala al pasar el ratón sobre las imágenes */
+.carousel-item img:hover {
+    transform: scale(1.02); /* Escala la imagen al 110% */
+}
+
+
+
+
+/* Desplaza la imagen siguiente hacia la derecha */
+.carousel-item-next img {
+    transform: translateX(-100%);
+}
+
+/* Desplaza la imagen previa hacia la izquierda */
+.carousel-item-prev img {
+    transform: translateX(100%);
+}
+
+/* Estilo para las tarjetas */
+.card-group {
+    margin-top: 20px; /* Añadir espacio encima del grupo de tarjetas */
+}
+
+.card {
+    margin-bottom: 20px; /* Añadir espacio entre las tarjetas */
+}
+
+.card img {
+    border-radius: 7px; /* Agregar bordes redondeados a las imágenes de las tarjetas */
+}
+
+/* 1° Imagen en Círculo */
+.primer-ef {
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.primer-ef figure {
+    width: 167.3px;
+    height: 167.3px;
+    overflow: hidden;
+    border-radius: 50%;
+    align-items: center;
+    transition: all 500ms ease;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primer-ef figure .img-circulo {
+    opacity: 1;
+    width: 200px;
+    position: relative;
+    transition: all 500ms ease;
+}
+
+.primer-ef figure:hover {
+    width: 201px;
+    height: 201px;
+    border-radius: 5%;
+}
+
+.primer-ef figure .img-circulo:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 22rem; /* Ancho deseado para la tarjeta */
+    transition: transform 0.3s; /* Agregar transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta la escala al 105% cuando pasa el mouse */
+}
+
+/* Reglas de estilo para dispositivos móviles */
+@media (max-width: 767px) {
+    .card {
+        width: calc(100% - 20px); /* Ancho máximo para dispositivos móviles */
+        margin: 10px; /* Espacio entre las tarjetas */
+    }
+}
+
+
+
+
+
+
+/* Media queries para diseño responsivo */
+@media only screen and (max-width: 768px) {
+    .navLinks li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .navLinks li a {
+        font-size: 16px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    }
+
+    .buttons {
+        margin-right: 20px; /* Reducir el margen derecho */
+    }
+
+    .button, .searchButton {
+        width: 120px; /* Reducir el ancho de los botones para dispositivos móviles */
+        font-size: 14px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navLinks {
+        flex-direction: column;
+    }
+
+    .navLinks li {
+        margin-bottom: 10px;
+    }
+}
