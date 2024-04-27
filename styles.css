@@ -172,7 +172,7 @@ footer img {
 /* CSS para el carrusel */
 .carousel-item img {
     width: 87% !important; /* El ancho ocupa el 80% de la pantalla */
-    height: 60vh !important; /* La altura ocupa el 50% de la altura de la ventana */
+    height: 55vh !important; /* La altura ocupa el 50% de la altura de la ventana */
     background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semi-transparente */
     border-radius: 7px; /* Agrega bordes redondeados */
     margin: 0 auto; 
